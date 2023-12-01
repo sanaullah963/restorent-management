@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>order</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./bootstrap5/css/bootstrap.min.css">
+  <!-- fontwasome -->
+  <link rel="stylesheet" href="./fontwasome/css/all.min.css">
+  <link rel="stylesheet" href="./fontwasome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="./fontwasome/css/v4-font-face.min.css">
+  <link rel="stylesheet" href="./fontwasome/css/v5-font-face.min.css">
+  <!-- main style.css file -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body style="background-color:#a1e9e6 ;">
+  
+<!------header start -->
+<div class="container-fluid bg-warning">
+  <h1 class="text-uppercase text-center py-3">order a food</h1>
+</div>
+<!------header end -->
+
+
+<!------form start -->
+<div class="container d-flex flex-column align-items-center">
+  <!-- nav bar -->
+  <ul class="nav nav-pills" >
+    <li class="nav-item">
+      <button class="nav-link active" data-bs-target="#pickUp" data-bs-toggle="pill">Pick up</button>
+    </li>
+    <li class="nav-item">
+      <button class="nav-link" data-bs-target="#delivary" data-bs-toggle="pill">Delivary</button>
+    </li> 
+  </ul>
+  <!-- navbar content -->
+  <div class="tab-content mt-5">
+    <!-- pick-up form -->
+    <div class="tab-pane fade show active card" id="pickUp">
+      <div class="card-header">
+        <h3>Enter Details</h3>
+      </div>
+      <form action="" class="card-body">
+        <!-- name & food-id -->
+        <div class="row-cols-sm-2 d-sm-flex">
+          <div class="form-floating">
+            <input type="text" id="name" class="form-control mb-4 " placeholder="name">
+            <label for="name">Name</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" id="id" class="form-control mb-4" placeholder="Food ID">
+            <label for="id">Food ID</label>
+          </div>
+        </div>
+        <!-- email & mobile -->
+        <div class="row-cols-sm-2 d-sm-flex">
+          <div class="form-floating">
+            <input type="email" id="email" class="form-control mb-4" placeholder="Email Address">
+            <label for="email">Email Address</label>
+          </div>
+          <div class="form-floating">
+            <input type="number" id="number" class="form-control mb-4" placeholder="Phone Number">
+            <label for="number">Phone Number</label>
+          </div>
+        </div>
+        <!-- email & mobile -->
+        <div class="row-cols-sm-2 d-sm-flex">
+          <div class="form-floating">
+            <input type="number" id="howMany" class="form-control mb-4" placeholder="How Many">
+            <label for="email">How Many</label>
+          </div>
+          
+        </div>
+        <!-- button -->
+        <div class="row-cols-2 d-flex justify-content-between">
+          <input type="submit" class="btn btn-warning col-5" value="Order">
+          <input type="reset" class="btn btn-danger col-5">
+        </div>
+        
+        
+      </form>
+      <div class="card-footer text-center">
+        <a href="./index.html"><button class="btn btn-success w-100">Back to home</button></a>
+      </div>
+    </div>
+    <!-- delivary form -->
+    <div class="tab-pane fade card" id="delivary">
+      <div class="card-header">
+        <h3>Enter Details</h3>
+      </div>
+      <form action="" class="card-body">
+        <!-- name & food-id -->
+        <div class="row-cols-sm-2 d-sm-flex">
+          <div class="form-floating">
+            <input type="text" id="name" class="form-control mb-4 " placeholder="name">
+            <label for="name">Name</label>
+          </div>
+          <div class="form-floating">
+            <input type="text" id="id" class="form-control mb-4" placeholder="Food ID">
+            <label for="id">Food ID</label>
+          </div>
+        </div>
+        <!-- email & mobile -->
+        <div class="row-cols-sm-2 d-sm-flex">
+          <div class="form-floating">
+            <input type="email" id="email" class="form-control mb-4" placeholder="Email Address">
+            <label for="email">Email Address</label>
+          </div>
+          <div class="form-floating">
+            <input type="number" id="number" class="form-control mb-4" placeholder="Phone Number">
+            <label for="number">Phone Number</label>
+          </div>
+        </div>
+        <!-- pices & address -->
+        <div class="row-cols-sm-2 d-sm-flex">
+          <div class="form-floating">
+            <input type="number" id="howMany" class="form-control mb-4" placeholder="How Many">
+            <label for="email">How Many</label>
+          </div>
+          <div class="form-floating">
+            <textarea name="" class="form-control mb-4" id="textarea" placeholder="Your Address"></textarea>
+            <label for="textarea">Your Address</label>
+          </div>
+          
+        </div>
+        <!-- button -->
+        <div class="row-cols-2 d-flex justify-content-between">
+          <input type="submit" class="btn btn-warning col-5" value="Order">
+          <input type="reset" class="btn btn-danger col-5">
+        </div>
+        
+        
+      </form>
+      <div class="card-footer text-center">
+        <a href="./index.html"><button class="btn btn-success w-100">Back to home</button></a>
+      </div>
+    </div>
+  </div>
+
+</div>
+<!------form end -->
+
+
+
+
+  <!-- bootstrap -->
+  <script src="./bootstrap5/js/bootstrap.bundle.min.js"></script>
+  <script src="./bootstrap5/js/bootstrap.min.js"></script>
+  <!-- main js file -->
+  <script src="./js/main.js"></script>
+</body>
+</html>

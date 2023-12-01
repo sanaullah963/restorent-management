@@ -1,0 +1,209 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+i{
+  color: #ffc107;
+  font-size: 40px;
+}
+
+/*------navbar end */
+.mainNavSection{
+width: 100%;
+background-color: #002a42ea;
+z-index: 1;
+position: fixed;
+
+}
+.navbar .navbar-brand {
+  color: #fea116;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family:sans-serif;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+.navbar .mobile-icon{
+  color: #fea116;
+}
+.navbarItem ul li a{
+  color: #ffff;
+}
+.navbarItem ul li a:hover{
+  color: #FF8400;
+}
+.navbarItem ul ul{
+  background-color: #002a42ea;
+  color: #000;
+}
+
+/*------navbar end */
+
+/*------header-display start */
+.mainDisplay {
+  height: auto;
+  /* padding-top: 70px; */
+  background: url(../img/display-1.jpg);
+}
+.innerDis {
+  background-color: #0c2a49cd;
+  width: 100vh;
+}
+.innerDis .disLeft h1{
+  font-size: 50px;
+  font-weight: 700;
+  margin: 30px 0;
+  font-family: sans-serif;
+}
+.innerDis .disLeft p{
+  font-size: 20px;
+}
+.innerDis .disLeft button{
+  color: #635f5f;
+  font-weight: 600;
+  font-size: 20px;
+}
+/*------header-display end */
+/*------header end */
+
+
+/*------card start */
+.cardSection{
+padding-top: 95px;
+}
+.cardSection .innerCard .cardItem{
+transition: .2s;
+padding: 15px 0;   
+}
+.cardSection .innerCard .cardItem .cardIcon{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.cardSection .innerCard .cardItem i {
+  font-size: 70px;
+  margin-bottom: 20px;
+  color: #fea116;
+  transition: .4s;
+  text-align: center; 
+}
+.cardSection .innerCard .cardItem:hover i{
+color: #ffff;
+}
+.innerDis .disRight{
+  margin-top: 55px;
+  overflow: hidden;
+}
+.innerDis .disRight img{
+  animation: mymove 7s ease-out infinite;
+  width:90%;
+}
+@keyframes mymove {
+  100% {transform: rotate(360deg);}
+}
+/*------card end */
+
+
+
+
+/*------about start */
+.mainAbout{
+  padding-top: 100px;
+}
+/*------about end */
+
+
+
+/*------menu start */
+.mainMenu{
+  padding-top: 100px;
+}
+
+@media screen and (max-width: 455px) {
+  .mainMenu ul li a i{
+    font-size:25px;
+  }
+  .mainMenu ul li a h5{
+    font-size: 50%;
+  }
+  .mainMenu ul li a h6{
+    font-size: 30%;
+  }
+}
+
+/*------menu end */
+
+
+
+/*------book-table start */
+.bookTable{
+  padding-top: 100px;
+}
+.bookTable input{
+padding-left: 100px;
+}
+.bookTable label{
+padding-left: 25px;
+overflow: hidden;
+}
+/*------book-table end */
+
+
+/*------our-team start */
+.masterChefs{
+  padding-top: 100px;
+}
+
+.masterChefs .card .hoverItem{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d3b3baa;
+  transition: .3s;
+  opacity: 0;
+}
+.masterChefs .card .hoverItem :hover{
+  color: #FFE5CA;
+}
+.masterChefs .card .hoverItem p{
+  font-size: 40px;
+  margin: 0 4px;
+  color: #ffffff;
+  transition: .3s;
+
+}
+ .masterChefs .card:hover .hoverItem {
+  opacity: 1;
+} 
+/*------our-team end */
+
+
+/*------footer start */
+footer{
+  background-color: #002a42ea;
+  margin-top: 100px;
+}
+footer a .hoverSpan{
+  transition: .3s;
+}
+footer a .hoverSpan:hover{
+  letter-spacing: 1px;
+  border-bottom: 2px solid #fea116;
+}
+footer .socialMedia p{
+/* border-radius: 50%; */
+margin: 0 5px;
+color: #fff;
+font-size: 40px;
+transition: .3s;
+}
+footer .socialMedia p:hover{
+color: #a5a5a5;
+/* background-color: #fff; */
+}
+/*------footer end */
+
+

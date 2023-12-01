@@ -1,0 +1,49 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+
+/*------navbar start */
+
+.mainNavSection{
+width: 100%;
+background-color: #002a42ea;
+z-index: 1;
+position: fixed;
+}
+.navbar .navbar-brand {
+  color: #fea116;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family:sans-serif;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+.navbar .mobile-icon{
+  color: #fea116;
+}
+.navbarItem ul li a{
+  color: #ffff;
+}
+.navbarItem ul li a:hover{
+  color: #FF8400;
+}
+.navbarItem ul ul{
+  background-color: #002a42ea;
+  color: #000;
+
+  background-color: #8080808f;
+}
+/*------navbar end */
+
+.carousel{
+  padding-top: 100px;
+}
+.carousel .carousel-item{
+
+}
+.mainAbout{
+  padding-top: 95px;
+}
+

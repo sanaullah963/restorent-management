@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resturent</title>
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="./bootstrap5/css/bootstrap.min.css">
+  <!-- fontwasome -->
+  <link rel="stylesheet" href="./fontwasome/css/all.min.css">
+  <link rel="stylesheet" href="./fontwasome/css/brands.min.css">
+  <link rel="stylesheet" href="./fontwasome/css/fontawesome.min.css">
+  <link rel="stylesheet" href="./fontwasome/css/v4-font-face.min.css">
+  <link rel="stylesheet" href="./fontwasome/css/v5-font-face.min.css">
+  <!-- main style.css file -->
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+  <!------header start -->
+  <header>
+    <!------header-navigation start -->
+    <div class=" mainNavSection">
+      <div class=" container navbar navbar-expand-lg">
+        <!-- navbar-logo -->
+        <a href="#" class="navbar-brand w-25">
+          <img class="w-100" src="./img/logo.png" alt="">
+        </a>
+        <!-- mobile-screen-navbar-icon -->
+        <button class="navbar-toggler mobile-icon " data-bs-toggle="collapse" data-bs-target="#movileIcon">
+          <i class="fas fa-bars"></i>
+        </button>
+        <!-- navbar-item -->
+        <div class="collapse navbar-collapse navbarItem" id="movileIcon">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a href="#hesderDisplay" class="nav-link">HOME</a></li>
+            <li class="nav-item"><a href="#serviceCardId" class="nav-link">SERVICE</a></li>
+            <li class="nav-item"><a href="#aboutID" class="nav-link">ABOUT</a></li>
+            <li class="nav-item"><a href="#menuId" class="nav-link">MENU</a></li>
+            <!-- dropdown menu -->
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">PAGE</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#preeBookingId">Pree Booking</a></li>
+                <li><a class="dropdown-item" href="#ourTeamId">Our team</a></li>
+              </ul>
+            </li>
+            <li class="nav-item"><a href="#contactId" class="nav-link">CONTACT</a></li>
+          </ul>
+          <!-- search-box -->
+          <form action="" class="input-group">
+            <input class="form-control" type="text" placeholder="Enter item name">
+            <button class="btn btn-outline-warning btn-info text-dark">SEARCH</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!------header-navigation end -->
+   
+    <!------header-display start -->
+    <div class="mainDisplay" id="hesderDisplay">
+      <div class="innerDis h-100 w-100">
+        <div class="ChildDis row-cols-lg-2 container d-lg-flex p-5">
+          <!-- display-left -->
+          <div class="disLeft  text-light">
+            <h1 class="text-capitalize my-sm-5">enjoy our delicious meal</h1>
+            <p class=" mb-sm-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+            <a href="#menuId"><button class="btn btn-warning btn-outline-light text-uppercase rounded-0">our food item</button></a>
+            
+          </div>
+          <!-- display-right -->
+          <div class="disRight">
+            <img class=" ms-lg-5" src="./img/hero.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------header-display end -->
+  </header>
+  <!------header end -->
+
+
+  <!------card start -->
+  <div class=" cardSection container-lg" id="serviceCardId">   
+    <!-- card item -->
+    <div class="innerCard row-cols-md-4 d-md-flex w-100  text-capitalize"> 
+      <!-- card 1 -->
+      <div class="cardItem card col-md-3 pt-5 pb-3 ps-3 btn-outline-warning text-dark">
+        <div class="cardIcon">
+          <i class="fas fa-user"></i>
+        </div>
+        <h3>master chefs</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A maxime ullam totam. Laboriosam, dolorum repudiandae.</p>
+      </div>      
+      <!-- card 2 -->
+      <div class="cardItem card col-md-3 pt-5 pb-3 ps-3 btn-outline-warning text-dark">
+        <div class="cardIcon">
+          <i class="fas fa-utensils"></i>
+        </div>
+        <h3>quality food</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A maxime ullam totam. Laboriosam, dolorum repudiandae.</p>
+      </div>      
+      <!-- card 3 -->
+      <div class="cardItem card col-md-3 pt-5 pb-3 ps-3 btn-outline-warning text-dark">
+        <div class="cardIcon">
+          <i class="fas fa-shopping-cart"></i>
+        </div>     
+        <h3>online order</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A maxime ullam totam. Laboriosam, dolorum repudiandae.</p>
+      </div>      
+      <!-- card 4 -->
+      <div class="cardItem card col-md-3 pt-5 pb-3 ps-3 btn-outline-warning text-dark">
+        <div class="cardIcon">
+          <i class="fas fa-headset"></i>
+        </div>       
+        <h3>24/7 service</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A maxime ullam totam. Laboriosam, dolorum repudiandae.</p>
+      </div>      
+    </div>   
+  </div>
+  <!------card end -->
+
+
+  <!------about start -->
+  <div class="mainAbout container " id="aboutID">
+    <div class="row-cols-lg-2 d-lg-flex">
+      <!-- about left -->
+      <div class="col-lg-6">
+        <!-- carousel strat -->
+        <div class="carousel slide" id="aboutCarouswl" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <!-- carousel item-1 -->
+            <div class="carousel-item active">
+              <img src="./img/about-1.jpg" class="d-block w-100" alt="">
+              <div class="carousel-caption bg-danger">
+                <h3>In side Our Resturent</h3>
+              </div>
+            </div>
+            <!-- carousel item-2 -->
+            <div class="carousel-item">
+              <img src="./img/about-2.jpg" class="d-block w-100" alt="">
+              <div class="carousel-caption bg-danger">
+                <h3>In side Our Resturent</h3>
+              </div>
+            </div>
+            <!-- carousel item-3 -->
+            <div class="carousel-item">
+              <img src="./img/about-3.jpg" class="d-block w-100" alt="">
+              <div class="carousel-caption bg-danger">
+                <h3>Table section</h3>
+              </div>
+            </div>
+          </div>
+          <!-- indicetor -->
+          <div class="carousel-indicators">
+
+            <button class="active" data-bs-target="#aboutCarouswl" data-bs-slide-to="0" ></button>
+            <button class="" data-bs-target="#aboutCarouswl" data-bs-slide-to="1" ></button>
+            <button class="" data-bs-target="#aboutCarouswl" data-bs-slide-to="2" ></button>
+          </div>
+          <!-- control button -->
+          <div class=" d-flex align-items-end">
+            <button class="carousel-control-prev fs-1" data-bs-target="#aboutCarouswl" data-bs-slide="prev"><p class="fas fa-arrow-left"></p></button>
+            <button class="carousel-control-next fs-1" data-bs-target="#aboutCarouswl" data-bs-slide="next"><p class="fas fa-arrow-right"></p></button>
+          </div>
+
+        </div>
+      </div>
+      <!-- about right -->
+      <div class="col-lg-6 ps-lg-5 pt-2">
+        <h4 class="text-warning ">about Us</h4>
+        <div style=" height: 3.5px;width: 200px; background-color: #ffc107; border-radius: 20px;"></div>
+        <h1 class="my-3">Welcome to <i class="fas fa-utensils text-warning fs-1"></i>Restoran</h1>
+        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
+        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+        <!--right inner column -->
+        <div class="row-cols-sm-2 d-sm-flex mb-3">
+          <!--right inner-column left -->
+          <div class="col-sm-6 my-2" style="border-left: 5px solid #ffc107;">
+            <div class="row">
+              <div class="col-3 ps-4 d-flex align-items-center justify-content-center">
+                <h1>15</h1>
+              </div>
+              <div class="col-9">
+                <h6 class="text-secondary">Years of</h6>
+                <h4>EXPREIENCE </h4>
+              </div>
+            </div>
+          </div>
+          <!--right inner-column right -->
+          <div class="col-sm-6 my-2" style="border-left: 5px solid #ffc107;">
+            <div  class="row">
+              <div class="col-3 ps-4 d-flex align-items-center justify-content-center">
+                <h1>50</h1>
+              </div>
+              <div class="col-9">
+                <h6 class="text-secondary">Popular</h6>
+                <h4>MASTER CHEFE</h4>
+              </div>
+            </div>
+          </div>
+        </div>     
+        <a href="./about.html" target="_blank"><botton class="btn btn-warning rounded-0 p-3 px-5">READ MORE</botton></a>
+      </div>
+    </div>
+  </div>
+  <!------about end -->
+
+
+  <!------menu start -->
+  <div class="mainMenu container over" id="menuId">
+    <div class="header">
+      <!-- menu-header titel -->
+      <div class="d-flex align-items-center justify-content-center">
+        <div style=" height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+        <h4 class="text-warning mx-2">Our food</h4>
+        <div style="height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+      </div>
+      <h1 class="text-center mb-4">Most Popular Items</h1>
+      <div class="menuNav d-sm-flex align-items-center justify-content-center flex-column">
+        <!-- menu-header navigation bar -->
+        <ul class="nav nav-tabs mb-4 ">
+          <!-- nav-button 01 -->
+          <li class="nav-item">
+            <a href="#content1" class="nav-link active" data-bs-toggle="tab">
+              <div class="row d-flex align-items-center">
+                <div class="col-3 p-0">
+                  <i class="fas fa-mug-hot"></i>
+                </div>
+                <div class="col-9">
+                  <h6 class="text-secondary m-0">Popular</h6>
+                  <h5 class="text-dark">Breakfast</h5>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- nav-button 02 -->
+          <li class="nav-item">
+            <a href="#content2" class="nav-link" data-bs-toggle="tab">
+              <div class="row d-flex align-items-center">
+                <div class="col-3 p-0">
+                  <i class="fas fa-burger"></i>
+                </div>
+                <div class="col-9">
+                  <h6 class="text-secondary m-0">Special</h6>
+                  <h5 class="text-dark">Launch</h5>
+                </div>
+              </div>
+            </a>
+          </li>
+          <!-- nav-button 03 -->
+          <li class="nav-item">
+            <a href="#content3" class="nav-link" data-bs-toggle="tab">
+              <div class="row d-flex align-items-center">
+                <div class="col-3 p-0">
+                  <i class="fas fa-utensils"></i>
+                </div>
+                <div class="col-9">
+                  <h6 class="text-secondary m-0">Lovely</h6>
+                  <h5 class="text-dark">Dinner</h5>
+                </div>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!-- menu-navigation contect -->
+        <div class="tab-content ">
+          <!-- content-1 -->
+          <div class="tab-pane active" id="content1">
+            <!-- content-1 first-row -->
+            <div class="row-cols-md mb-4 gap-2 w-100 d-md-flex justify-content-between">
+              <!-- conetnt-1 col-1 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-1_contect-1 Aloo_Paratha1.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$25</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 001</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-1 col-2 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-1_contect-1Buttered_crumpet.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 002</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-1 col-3 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-1_contect-1Eggs_Benedict-01-cropped.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 003</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- content-1 secend-row -->
+            <div class="row-cols-md mb-4 gap-2 w-100 d-md-flex justify-content-between">
+              <!-- conetnt-1 col-1 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-1_contect-2-Waffles_with_Strawberries.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$23</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 005</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-1 col-2 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-1_contect-2-Vegan_yogurt,_March_2012.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 006</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-1 col-3 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-1_contect-2-Waffles_with_Strawberries.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 007</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- content-2 footer button -->
+            <div>
+              <button class="btn btn-dark px-5 py-3 rounded-0">View More Item</button>
+            </div>
+          </div>
+          <!-- content-2 -->
+          <div class="tab-pane fade " id="content2">
+            <!-- content-2 first-row -->
+            <div class="row-cols-md mb-4 gap-2 w-100 d-md-flex justify-content-between">
+              <!-- conetnt-2 col-1 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-2_contect-1-.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 008</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-2 col-2 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-2_contect-1-.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 009</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-2 col-3 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-2_contect-1-.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 010</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- content-2 secend-row -->
+            <div class="row-cols-md mb-4 gap-2 w-100 d-md-flex justify-content-between">
+              <!-- conetnt-2 col-1 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-2_contect-1-.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 011</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-2 col-2 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-2_contect-1-.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 012</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-2 col-3 -->
+              <div class="col-md-4">
+                <!-- col-3 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/btn-2_contect-1-.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 013</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <button class="btn btn-dark px-5 py-3 rounded-0">View More Item</button>
+            </div>
+          </div>
+          <!-- content-3 -->
+          <div class="tab-pane fade " id="content3">
+            <!-- content-3 first-row -->
+            <div class="row-cols-md mb-4 gap-2 w-100 d-md-flex justify-content-between">
+              <!-- conetnt-3 col-1 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/menu-4.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 013</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-3 col-2 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/menu-4.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 014</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-3 col-3 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/menu-4.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 015</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- content-3 second-row -->
+            <div class="row-cols-md mb-4 gap-2 w-100 d-md-flex justify-content-between">
+              <!-- conetnt-3 col-1 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/menu-4.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 016</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-3 col-2 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/menu-4.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$1</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 017</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+              <!-- conetnt-3 col-3 -->
+              <div class="col-md-4">
+                <!-- col-1 card -->
+                <div class="card">
+                  <div class="card-header">
+                    <h2>Coffe</h2>
+                  </div>
+                  <!-- card-body -->
+                  <div class="card-body">
+                    <div class="card-img mb-3">
+                      <img class="w-100" src="./img/menu-4.jpg" alt="">
+                    </div>
+                    <!-- card-body star & price -->
+                    <div class="d-flex justify-content-between">
+                      <div class="p-0">
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star fs-6"></i>
+                        <i class="fas fa-star-half-alt fs-6"></i>
+                        <i class="fas fa-star text-secondary fs-6"></i>
+                      </div>
+                      <div class="" style="font-family:Arial; color: #039a65;">
+                        <h3>$45</h3>
+                      </div>
+                    </div>
+                    <h6 class="text-primary">ID : 018</h6>
+                    <p>Lorem ipsum dolor sit amet.Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <!-- card footer -->
+                  <div class="card-footer">
+                    <div class="d-flex justify-content-between mb-4">
+                      <button class="btn btn-primary rounded-0">Add To Cart</button>
+                      <button class="btn btn-success rounded-0 ">View more</button>
+                    </div>
+                    <div>
+                      <a href="./order.html" target="_blank"><button class="btn btn-warning w-100">Order</button></a>
+                    </div>
+                    <div class=""></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <button class="btn btn-dark px-5 py-3 rounded-0">View More Item</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------menu end -->
+
+
+  <!------book table start -->
+  <div class="bookTable container-xxl" id="preeBookingId">
+    <div class="row-cols-lg-2 d-lg-flex" style="background-color: #002a42ea;">
+      <!-- left image -->
+      <div class="col-lg-6">
+        <img class="w-100 h-100" src="./img/video.jpg" alt="">
+      </div>
+      <!-- right form  -->
+      <div class="col-lg-6 px-5">
+        <form action="">
+          <!-- first-row name& email-->
+          <div class="">
+            <div class="mt-4 row-cols-sm-2 d-sm-flex justify-content-between">
+              <div class=" col-sm-5 my-3 form-floating">
+                <input id="name" type="text" class="rounded-0 form-control"placeholder=" Your Name"  required>
+                <label for="name">Your Name</label>
+              </div>
+              <div class="col-sm-5 my-3 form-floating">
+                <input id="number" type="number" class="rounded-0 form-control" placeholder="Your number"  required>
+              <label for="number">Phone Number</label>
+              </div>
+            </div>
+          </div>
+          <!-- second-row date & people-->
+          <div class="">
+            <div class="row-cols-sm-2 d-sm-flex justify-content-between">
+              <div class=" col-sm-5 my-3 form-floating">
+                <input id="date" type="date" class="rounded-0 form-control"placeholder="Date"  required>
+                <label for="date">Date</label>
+              </div>
+              <div class="col-sm-5 my-3 ">
+                <textarea placeholder="Details Or Requerment" id="textarea" class="form-control"></textarea>
+              </div>
+            </div>
+          </div>
+          <!-- third-row start & end time-->
+          <div class="">
+            <div class="row-cols-sm-2 d-sm-flex justify-content-between">
+              <div class=" col-sm-5 my-3 form-floating">
+                <input id="stime" type="time" class="rounded-0 form-control"  required>
+                <label for="stime">Starting Time</label>
+              </div>
+              <div class="col-sm-5 my-3 form-floating">
+                <input id="etime" type="time" class="rounded-0 form-control"  required>
+              <label for="email">End Time</label>
+              </div>
+            </div>
+          </div>
+          <!-- forth-row select table-->
+          <div class="my-3 mb-3" >
+            <select name="" id="" class="form-select">
+              <option selected>Select table (optional)</option>
+              <option value="">1st Flore Table-1</option>
+              <option value="">1st Flore Table-2</option>
+              <option value="">1st Flore Table-3</option>
+              <option value="">1st Flore Table-4</option>
+              <option value="">1st Flore Table-5</option>
+              <option value="">2nd Flore Table-1</option>
+              <option value="">2nd Flore Table-2</option>
+              <option value="">2nd Flore Table-3</option>
+              <option value="">2nd Flore Table-4</option>
+              <option value="">2nd Flore Table-5</option>
+            </select>
+          </div>
+          <button class="btn btn-warning w-100 rounded-0  mb-5">BOOK NOW</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!------book table end -->
+
+
+  <!------master chefs start -->
+  <div class="masterChefs container " id="ourTeamId">
+    <!-- master-chefs header -->
+    <div class="header">
+      <div class="d-flex align-items-center justify-content-center">
+        <div style=" height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+        <h4 class="text-warning mx-2">Our Team</h4>
+        <div style="height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+      </div>
+      <h1 class="text-center mb-4">Most Popular Chefs</h1>
+    </div>
+    <!-- body -->
+    <div class="row-cols-md d-md-flex gap-lg-5 mt-sm-5">
+      <!-- col-1 -->
+      <div class="col card mb-4">        
+        <div class="card-img">
+          <img class="w-100" src="./img/team-1.jpg" alt="">
+        </div>
+        <div class="card-footer pt-4 text-center">
+          <h3 class="mb-0">Full Name</h3>
+          <p class="text-secondary">Designetion</p>
+        </div>
+        <!-- hover item -->
+        <div class="hoverItem">
+          <a href="#" target="_blank"><p class="fa-brands fa-facebook-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-twitter-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-whatsapp-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-instagram-square"></p></a>
+        </div>
+      </div>
+      <!-- col-2 -->
+      <div class="col card mb-4">       
+        <div class="card-img">
+          <img class="w-100" src="./img/team-2.jpg" alt="">
+        </div>
+        <div class="card-footer pt-4 text-center">
+          <h3 class="mb-0">Full Name</h3>
+          <p class="text-secondary">Designetion</p>
+        </div>
+        <!-- hover item -->
+        <div class="hoverItem">
+          <a href="#" target="_blank"><p class="fa-brands fa-facebook-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-twitter-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-whatsapp-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-instagram-square"></p></a>
+        </div>
+      </div>
+      <!-- col-3 -->
+      <div class="col card mb-4">        
+        <div class="card-img">
+          <img class="w-100" src="./img/team-3.jpg" alt="">
+        </div>
+        <div class="card-footer pt-4 text-center">
+          <h3 class="mb-0">Full Name</h3>
+          <p class="text-secondary">Designetion</p>
+        </div>
+        <!-- hover item -->
+        <div class="hoverItem">
+          <a href="#" target="_blank"><p class="fa-brands fa-facebook-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-twitter-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-whatsapp-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-instagram-square"></p></a>
+        </div>
+      </div>
+      <!-- col-4 -->
+      <div class="col card mb-4">       
+        <div class="card-img">
+          <img class="w-100" src="./img/team-4.jpg" alt="">
+        </div>
+        <div class="card-footer pt-4 text-center">
+          <h3 class="mb-0">Full Name</h3>
+          <p class="text-secondary">Designetion</p>
+        </div>
+        <!-- hover item -->
+        <div class="hoverItem">
+          <a href="#" target="_blank"><p class="fa-brands fa-facebook-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-twitter-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-whatsapp-square"></p></a>
+          <a href="#" target="_blank"><p class="fa-brands fa-instagram-square"></p></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!------master chefs end -->
+
+
+  <!------footer start -->
+  <footer id="contactId">
+    <div class="container">
+      <div class="row-cols-lg-4 d-lg-flex pt-5">
+      <!-- footer col-1 -->
+      <div class="col-lg-3 my-5">
+        <div class="d-flex align-items-center justify-content-center">
+          <div style="height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+          <h5 class="text-warning mx-2">Our food</h5>
+          <div style="height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+        </div>
+        <div class="text-capitalize d-flex flex-column align-items-start">          
+          <!--col-1 list-1 -->
+          <a href="#" class="pb-0 btn text-decoration-none text-light">           
+            <p class="fas fa-chevron-right pe-2"></p>            
+            <span class="hoverSpan">Sign-Up Or Login-In</span>
+          </a>         
+          <!--col-1 list-2 -->
+          <a href="#contactid" class="py-0 btn text-decoration-none text-light">
+            <p class="fas fa-chevron-right pe-2"></p>            
+            <span class="hoverSpan">contact Us</span>
+          </a>                
+          <!--col-1 list-3 -->
+          <a href="#" class="py-0 btn text-decoration-none text-light">           
+            <p class="fas fa-chevron-right pe-2"></p>
+            <span class="hoverSpan">About Us</span>
+          </a>                 
+          <!--col-1 list-4 -->
+          <a href="#" class="py-0 btn text-decoration-none text-light">
+            <p class="fas fa-chevron-right pe-2"></p>
+            <span class="hoverSpan">privacy policy</span>
+          </a>         
+          <!--col-1 list-5 -->
+          <a href="#" class="py-0 btn text-decoration-none text-light">
+            <p class="fas fa-chevron-right pe-2"></p>
+            <span class="hoverSpan">terms & condition</span>
+          </a>
+        </div>
+      </div>
+      <!-- footer col-2 -->
+      <div class="col-lg-3 my-5 ms-3">
+        <div class="d-flex align-items-center justify-content-center mb-2">
+          <div style="height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+          <h5 class="text-warning mx-2">Contact</h5>
+          <div style="height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+        </div>
+        <div class="text-capitalize d-flex flex-column align-items-start">          
+          <!--col-2 list-1 -->
+          <a class="pb-0 text-decoration-none text-light">           
+            <p class="fas fa-location-dot pe-2"></p>            
+            <span>123 State, New York, USA</span>
+          </a>
+          <!--col-2 list-2 -->
+          <a class="py-0 text-decoration-none text-light">
+            <p class="fas fa-phone pe-2"></p>            
+            <span class="user-select-all">+012 152 2546825</span>
+          </a>
+          <!--col-2 list-3 -->
+          <a class="py-0 text-decoration-none text-light">           
+            <p class="fas fa-envelope pe-2"></p>
+            <span class="user-select-all">demo@example.com</span>
+          </a>
+          <!-- col-2 social-media -->
+          <div class="socialMedia" >
+            <a href="#" target="_blank"><p class="fa-brands fa-facebook-square"></p></a>
+            <a href="#" target="_blank"><p class="fa-brands fa-twitter-square"></p></a>
+            <a href="#" target="_blank"><p class="fa-brands fa-instagram-square"></p></a>
+            <a href="#" target="_blank"><p class="fa-brands fa-whatsapp-square"></p></a>           
+          </div>
+        </div>
+      </div>
+      <!-- footer col-3 -->
+      <div class="col-lg-3 my-5 ms-3">
+        <div class="d-flex align-items-center justify-content-center mb-2">
+          <div style="height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+          <h5 class="text-warning mx-2">Opening</h5>
+          <div style="height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+        </div>
+        <div class="text-light text-capitalize d-flex flex-column align-items-start">          
+          <h5>Monday - Saturday</h5>
+          <p>09AM - 09PM</p>
+          <hr>
+          <h5>Sunday</h5>
+          <p>10AM - 08PM</p>
+        </div>
+      </div>
+      <!-- footer col-4 -->
+      <div class="col-lg-3 my-5">
+        <div class="d-flex align-items-center justify-content-center">
+          <div style="height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+          <h5 class="text-warning mx-2">Branch</h5>
+          <div style="height: 3px;width: 40px; background-color: #ffc107; border-radius: 20px;"></div>
+        </div>
+        <div class="text-capitalize d-flex flex-column align-items-start">          
+          <!--col-4 list-1 -->
+          <a href="#" class="pb-0 btn text-decoration-none text-light">           
+            <p class="fas fa-chevron-right pe-2"></p>            
+            <span class="hoverSpan">los angeles</span>
+          </a>
+          <!--col-4 list-2 -->
+          <a href="#" class="py-0 btn text-decoration-none text-light">
+            <p class="fas fa-chevron-right pe-2"></p>            
+            <span class="hoverSpan">new york</span>
+          </a>
+          <!--col-4 list-3 -->
+          <a href="#" class="py-0 btn text-decoration-none text-light">           
+            <p class="fas fa-chevron-right pe-2"></p>
+            <span class="hoverSpan">chicago</span>
+          </a>
+          <!--col-4 list-4 -->
+          <a href="#" class="py-0 btn text-decoration-none text-light">
+            <p class="fas fa-chevron-right pe-2"></p>
+            <span class="hoverSpan">houston</span>
+          </a>
+          <!--col-4 list-5 -->
+          <a href="#" class="py-0 btn text-decoration-none text-light">
+            <p class="fas fa-chevron-right pe-2"></p>
+            <span class="hoverSpan">san antonio</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- footer coppyright -->
+    <hr class="bg-body" size="4px">
+    <div class="coppyright text-light py-4 text-center">
+      <p class="">
+        <p class="fas fa-copyright"></p>
+        <a href="#" class=" text-light">Intisar Sanaullah</a>
+         | All Right Reserved.
+      </p>
+      <!--  social media-->
+      <div class="socialMedia" >
+        <a href="https://www.facebook.com/intisarsanaullah/" target="_blank"><p class="fa-brands fa-facebook-square"></p></a>
+        <a href="https://twitter.com/Onlinejob29" target="_blank"><p class="fa-brands fa-twitter-square"></p></a>
+        <a href="https://www.instagram.com/onlineincome9636/" target="_blank"><p class="fa-brands fa-instagram-square"></p></a>
+        <a href="" target="_blank"><p class="fa-brands fa-whatsapp-square"></p></a>           
+        <a href="https://www.youtube.com/@onlineincomepolicy" target="_blank"><p class="fa-brands fa-youtube-square"></p></a>           
+        <a href="https://github.com/sanaullah963" target="_blank"><p class="fa-brands fa-github-square"></p></a>                      
+        <a href="https://www.linkedin.com/in/jihad-islam-187353246/" target="_blank"><p class="fa-brands fa-linkedin"></p></a>           
+      </div>
+    </div>
+    </div>
+    
+  </footer>
+  <!------footer end -->
+  
+
+  <!-----bootstrap js file-->
+  <!-- <script src="./bootstrap5/js/bootstrap.bundle.min.js"></script> -->
+  <script src="./bootstrap5/js/bootstrap.min.js"></script>
+  <!-- <script src="./popper.min.js"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script> -->
+  
+  <!-- main js file -->
+  <script src="./js/main.js"></script>
+</body>
+</html>
